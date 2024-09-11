@@ -1,6 +1,6 @@
 # PopClip Alfred 5 Extension
 
-This extension allows you to quickly send selected text from any application to Alfred 5 using PopClip, with the option to add a customizable prompt before the selected text.
+This extension allows you to quickly send selected text from any application to Alfred 5 using PopClip, with the option to add a customizable prompt before the selected text. It's a modification of the original Alfred extension by Pilotmoon.
 
 ## Features
 
@@ -8,6 +8,12 @@ This extension allows you to quickly send selected text from any application to 
 - Sends selected text directly to Alfred's search bar
 - Option to add a customizable prompt before the selected text
 - Works with any text selection in any application
+
+## Credits
+
+This extension is a modified version of the original Alfred extension created by Pilotmoon, the developers of PopClip. The original extension has been enhanced to include the customizable prompt feature.
+
+Original source: [Pilotmoon's Alfred PopClip Extension](https://github.com/pilotmoon/PopClip-Extensions/tree/45d80e00c62f0c0d40897b712b53a02e7ef1bd84/source/Alfred.popclipext)
 
 ## Installation
 
@@ -41,4 +47,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Please note that while this extension is a modification of Pilotmoon's work, any changes and additions are covered under this license.
