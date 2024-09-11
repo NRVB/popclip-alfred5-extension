@@ -1,0 +1,20 @@
+name: Alfred5
+identifier: com.nrvb.popclip.extension.alfred-workflow
+description: Activate Alfred with a custom prompt and the selected text.
+popclip version: 4151
+icon: bowler.png
+app:
+  name: Alfred
+  link: "https://www.alfredapp.com"
+  bundleIdentifier: com.runningwithcrayons.Alfred
+  checkInstalled: true
+options:
+  - identifier: prompt
+    type: string
+    label: Prompt before selected text
+    default: ""
+applescript: |
+  set userPrompt to "{popclip option prompt}"
+  set fullQuery to userPrompt & " " & "{popclip text}"
+  tell application id "com.runningwithcrayons.Alfred" to search fullQuery
+
